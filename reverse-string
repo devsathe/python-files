@@ -1,0 +1,12 @@
+#Reverse a String - Enter a string and the program will reverse it and print it out.
+
+print('Please enter the string you want to reverse')
+toreverse = input()
+lenstring = len(toreverse)
+reversed = ''
+for i in range(lenstring) :
+  reversed = reversed + toreverse[-i-1]
+print(reversed)
+
+  
+  
